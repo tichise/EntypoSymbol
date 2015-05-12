@@ -13,6 +13,11 @@ Link: http://www.entypo.com/
 
 Creative Commons Attribution 4.0 International (CC BY 4.0)
 
+#### Related products
+
+##### MaterialDesignSymbol
+Icon font library for Swift. Currently supports Google Material Design Icons https://github.com/tichise/MaterialDesignSymbol
+
 #### Examples
 
 ##### Image
