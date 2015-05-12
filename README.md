@@ -29,5 +29,12 @@ var symbol:EntypoSymbol = EntypoSymbol(text:EntypoIcon.install, size:25)
 var iconImage:UIImage = symbol.imageWithSize(CGSizeMake(25, 25))
 ```
 
+```html
+import EntypoSymbol
+
+sampleLabel.font = EntypoFont.fontOfSize(40)
+sampleLabel.text = EntypoIcon.creativeCommons
+```
+
 #### Installation (CocoaPods)
 pod EntypoSymbol
