@@ -37,4 +37,4 @@ sampleLabel.text = EntypoIcon.creativeCommons
 ```
 
 #### Installation (CocoaPods)
-pod EntypoSymbol
+` pod EntypoSymbol `
