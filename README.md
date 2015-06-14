@@ -26,6 +26,7 @@ Icon font library for Swift. Currently supports Google Material Design Icons htt
 import EntypoSymbol
 
 var symbol:EntypoSymbol = EntypoSymbol(text:EntypoIcon.install, size:25)
+symbol.addAttribute(NSForegroundColorAttributeName, value: UIColor.redColor())
 var iconImage:UIImage = symbol.imageWithSize(CGSizeMake(25, 25))
 ```
 
