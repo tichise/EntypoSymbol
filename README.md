@@ -1,7 +1,7 @@
 #### EntypoSymbol ![CocoaPods Version](https://img.shields.io/cocoapods/v/EntypoSymbol.svg?style=flat) ![Platform](https://img.shields.io/cocoapods/p/EntypoSymbol.svg?style=flat) ![License](https://img.shields.io/cocoapods/l/EntypoSymbol.svg?style=flat)
 ==============
 
-![image](https://s3.amazonaws.com/cocoacontrols_production/uploads/control_image/image/6387/_____.png)
+<img src="https://s3.amazonaws.com/cocoacontrols_production/uploads/control_image/image/6387/_____.png" width="160px">
 
 Icon font library for Swift. Currently supports Entypo
 
