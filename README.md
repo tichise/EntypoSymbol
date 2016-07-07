@@ -16,11 +16,6 @@ Link: http://www.entypo.com/
 
 Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-#### Related products
-
-##### MaterialDesignSymbol
-Icon font library for Swift. Currently supports Google Material Design Icons https://github.com/tichise/MaterialDesignSymbol
-
 #### Examples
 
 ##### Image
@@ -42,3 +37,16 @@ sampleLabel.text = EntypoIcon.creativeCommons
 
 #### Installation (CocoaPods)
 ` pod EntypoSymbol `
+
+#### Related products
+
+- Font Library
+ - Swift
+  - [MaterialDesignSymbol](https://github.com/tichise/MaterialDesignSymbol)
+  - [EntypoSymbo](https://github.com/tichise/EntypoSymbol)
+ - ObjectiveC
+  - [MaterialDesignSymbolObjC](https://github.com/tichise/MaterialDesignSymbolObjC)
+  - [EntypoSymboObjC](https://github.com/tichise/EntypoSymbolObjC)
+- Color Library
+  - [MaterialDesignColor](https://github.com/tichise/MaterialDesignColor) Swift
+  - [MaterialDesignColorObjC](https://github.com/tichise/MaterialDesignColorObjC) ObjectiveC
