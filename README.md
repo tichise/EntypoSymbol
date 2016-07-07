@@ -6,7 +6,9 @@
 Icon font library for Swift. Currently supports Entypo. 
 ObjectiveC version is [here](https://github.com/tichise/EntypoSymbolObjC).
 
- Entypoアイコンをシンボルフォントで呼び出せるライブラリです。詳細な使い方は[こちら](http://qiita.com/tichise/items/0b26a7a47c3862c4ca50)に記載してます。
+ Entypoアイコンをシンボルフォントで呼び出せるライブラリです。ObjecitveC版は[こちら](https://github.com/tichise/EntypoSymbolObjC).
+
+詳細な使い方は(qiita)(http://qiita.com/tichise/items/0b26a7a47c3862c4ca50)に記載してます。
 
 #### Licence
 font used in this project
