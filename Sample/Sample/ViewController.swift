@@ -17,8 +17,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var symbol:EntypoSymbol = EntypoSymbol(text:EntypoIcon.install, size:25)
-        var iconImage:UIImage = symbol.imageWithSize(CGSizeMake(25, 25))
+        let symbol:EntypoSymbol = EntypoSymbol(text:EntypoIcon.install, size:25)
+        let iconImage:UIImage = symbol.imageWithSize(CGSizeMake(25, 25))
         self.sampleImageView.image = iconImage
         
         sampleLabelView.font = EntypoFont.fontOfSize(40)

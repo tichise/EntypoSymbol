@@ -1,8 +1,9 @@
-platform :ios, '8.1'
+target 'Sample' do
+  use_frameworks!
 
-workspace 'Sample.xcworkspace'
-xcodeproj 'Sample.xcodeproj'
-use_frameworks!
-source 'https://github.com/CocoaPods/Specs.git'
+  pod 'EntypoSymbol', :path => '../'
 
-pod 'EntypoSymbol', :git => "https://github.com/tichise/EntypoSymbol"
+  target 'SampleTests' do
+    inherit! :search_paths
+  end
+end

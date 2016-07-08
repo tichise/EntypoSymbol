@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "12830010A208B422BDDF985CC59F572BA97B6C0E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "92164CA499BAF6BFB73B948510C0630CED9FDC75" : 0,
+    "12830010A208B422BDDF985CC59F572BA97B6C0E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7250C191-43AC-4193-BEE3-FDC97F6C15FE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "92164CA499BAF6BFB73B948510C0630CED9FDC75" : "MaterialDesignSymbol",
+    "12830010A208B422BDDF985CC59F572BA97B6C0E" : "EntypoSymbol"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Sample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Sample\/Sample.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tichise\/EntypoSymbol.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "12830010A208B422BDDF985CC59F572BA97B6C0E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tichise\/MaterialDesignIcon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "92164CA499BAF6BFB73B948510C0630CED9FDC75"
+    }
+  ]
+}
