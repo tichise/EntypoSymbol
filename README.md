@@ -1,10 +1,11 @@
 #### EntypoSymbol ![CocoaPods Version](https://img.shields.io/cocoapods/v/EntypoSymbol.svg?style=flat) ![Platform](https://img.shields.io/cocoapods/p/EntypoSymbol.svg?style=flat) ![License](https://img.shields.io/cocoapods/l/EntypoSymbol.svg?style=flat)
 
-<img src="https://s3.amazonaws.com/cocoacontrols_production/uploads/control_image/image/6387/_____.png" width="160px">
-
 - Icon font library for Swift. Currently supports Entypo. ObjectiveC version is [here](https://github.com/tichise/EntypoSymbolObjC).
 - Entypoアイコンをシンボルフォントで呼び出せるライブラリです。ObjecitveC版は[こちら](https://github.com/tichise/EntypoSymbolObjC).
  - 詳細な使い方は[qiita](http://qiita.com/tichise/items/0b26a7a47c3862c4ca50)に記載してます。
+
+#### Image
+<img src="https://s3.amazonaws.com/cocoacontrols_production/uploads/control_image/image/6387/_____.png" width="160px">
 
 #### Licence
 font used in this project
