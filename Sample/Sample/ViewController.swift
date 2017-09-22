@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let symbol:EntypoSymbol = EntypoSymbol(text:EntypoIcon.install as NSString, size:25)
-        let iconImage:UIImage = symbol.imageWithSize(size: CGSize(width: 25, height: 25))
+        let iconImage:UIImage = symbol.image(size: CGSize(width: 25, height: 25))
         self.sampleImageView.image = iconImage
         
         sampleLabelView.font = EntypoFont.fontOfSize(40)

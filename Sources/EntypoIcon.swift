@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class EntypoIcon {
+public class EntypoIcon:NSObject {
     
     public static let baidu = "\u{e749}"
     public static let houzz = "\u{e74a}"
@@ -202,7 +202,7 @@ public class EntypoIcon {
     public static let images = "\u{e66c}"
     public static let imageInverted = "\u{e66d}"
     public static let image = "\u{e66e}"
-    public static let copy = "\u{e66f}"
+    public static let copyIcon = "\u{e66f}"
     public static let spreadsheet = "\u{e670}"
     public static let textDocumentInverted = "\u{e671}"
     public static let textDocument = "\u{e672}"
@@ -346,7 +346,7 @@ public class EntypoIcon {
     public static let book = "\u{e6fc}"
     public static let blackboard = "\u{e6fd}"
     public static let graduationCap = "\u{e6fe}"
-    public static let new = "\u{e6ff}"
+    public static let newIcon = "\u{e6ff}"
     public static let medal = "\u{e700}"
     public static let priceRibbon = "\u{e701}"
     public static let clapperboard = "\u{e702}"

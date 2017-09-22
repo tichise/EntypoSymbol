@@ -15,7 +15,7 @@ Link: http://www.entypo.com/
 
 Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-#### Examples
+#### Examples Swift
 
 ##### Image
 
@@ -34,16 +34,25 @@ sampleLabel.font = EntypoFont.fontOfSize(40)
 sampleLabel.text = EntypoIcon.creativeCommons
 ```
 
+
+#### Examples Objective C
+
+##### Image
+
+```html
+@import EntypoSymbol;
+
+EntypoSymbol *symbol = [[EntypoSymbol alloc] initWithText:[EntypoIcon install] size:30];
+[symbol addAttributeWithAttributeName:NSForegroundColorAttributeName value:[UIColor blackColor]];
+sampleImageView.image = [symbol imageWithSize:CGSizeMake(30, 30)];
+```
+
+```html
+@import EntypoSymbol;
+
+sampleLabel.font = [EntypoFont fontOfSize:20];
+sampleLabel.text = [EntypoIcon install];
+```
+
 #### Installation (CocoaPods)
 ` pod EntypoSymbol `
-
-#### Related products
-
-- Font Library
- - [MaterialDesignSymbol](https://github.com/tichise/MaterialDesignSymbol) Swift
- - [EntypoSymbol](https://github.com/tichise/EntypoSymbol) Swift
- - [MaterialDesignSymbolObjC](https://github.com/tichise/MaterialDesignSymbolObjC) ObjectiveC
- - [EntypoSymbolObjC](https://github.com/tichise/EntypoSymbolObjC) ObjectiveC
-- Color Library
-  - [MaterialDesignColor](https://github.com/tichise/MaterialDesignColor) Swift
-  - [MaterialDesignColorObjC](https://github.com/tichise/MaterialDesignColorObjC) ObjectiveC
