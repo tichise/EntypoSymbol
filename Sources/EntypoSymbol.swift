@@ -11,7 +11,7 @@ public class EntypoSymbol:NSObject {
     
     var text:NSString = ""
     
-    var mutableTextFontAttributes = [NSAttributedStringKey : Any]()
+    var mutableTextFontAttributes:[NSAttributedStringKey : Any] = [NSAttributedStringKey : Any]()
     
     @objc public init(text:NSString, size:CGFloat) {
         self.text = text
