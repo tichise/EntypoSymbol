@@ -24,3 +24,9 @@ Carthage/Build
 Sample/Pods/*
 
 Sample/Podfile.lock
+Sample/Pods/*
+
+Sample/Sample.xcworkspace/contents.xcworkspacedata
+
+SampleObjectiveC/Podfile.lock
+SampleObjectiveC/Pods/*
