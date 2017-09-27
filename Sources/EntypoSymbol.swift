@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class EntypoSymbol:NSObject {
+open class EntypoSymbol:NSObject {
     
     var text:NSString = ""
     
