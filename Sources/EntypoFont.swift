@@ -17,7 +17,7 @@ open class EntypoFont:NSObject {
      - parameter fontSize: フォントサイズ
      - returns: UIFont
      */
-    open class func fontOfSize(_ fontSize: CGFloat) -> UIFont {
+    @objc open class func fontOfSize(_ fontSize: CGFloat) -> UIFont {
         
         struct Static {
             
