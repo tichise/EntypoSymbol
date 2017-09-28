@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'EntypoSymbol'
-  s.version = '1.7'
+  s.version = '1.8.0'
   s.license = 'Creative Commons Attribution 4.0 International (CC BY 4.0)'
   s.summary = 'Icon font library for Swift. Currently supports Entypo'
   s.homepage = 'https://github.com/tichise/EntypoSymbol'
@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.resources = 'Resources/*.ttf'
   s.xcconfig = {
-    'SWIFT_VERSION' => '3'
+    'SWIFT_VERSION' => '4'
   }
 end
