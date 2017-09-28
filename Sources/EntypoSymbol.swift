@@ -11,19 +11,19 @@ open class EntypoSymbol:NSObject {
     
     var text:NSString = ""
     
-    var mutableTextFontAttributes = [String : AnyObject]()
+    var mutableTextFontAttributes = [NSAttributedStringKey : AnyObject]()
     
-    public init(text:NSString, size:CGFloat) {
+    @objc public init(text:NSString, size:CGFloat) {
         self.text = text
         
-        self.mutableTextFontAttributes = [String : AnyObject]()
-        self.mutableTextFontAttributes[NSParagraphStyleAttributeName] = NSMutableParagraphStyle.default.mutableCopy() as! NSMutableParagraphStyle
+        self.mutableTextFontAttributes = [NSAttributedStringKey : AnyObject]()
+        self.mutableTextFontAttributes[NSAttributedStringKey.paragraphStyle] = NSMutableParagraphStyle.default.mutableCopy() as! NSMutableParagraphStyle
         
-        self.mutableTextFontAttributes[NSFontAttributeName] = EntypoFont.fontOfSize(size)
+        self.mutableTextFontAttributes[NSAttributedStringKey.font] = EntypoFont.fontOfSize(size)
     }
     
     // MARK: - Method
-    public func addAttribute(attributeName:String, value:AnyObject) {
+    @objc public func addAttribute(attributeName:NSAttributedStringKey, value:AnyObject) {
         self.mutableTextFontAttributes[attributeName] = value
     }
     
@@ -32,7 +32,7 @@ open class EntypoSymbol:NSObject {
      - parameter size: サイズ
      - returns: UIImage
      */
-    public func image(size:CGSize)->UIImage {
+    @objc public func image(size:CGSize)->UIImage {
         UIGraphicsBeginImageContextWithOptions(size, false, 0)
         
         let textRect  = CGRect(x: 0, y: 0, width: size.width, height: size.height)
