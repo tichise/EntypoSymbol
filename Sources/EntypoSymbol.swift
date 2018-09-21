@@ -11,19 +11,19 @@ open class EntypoSymbol:NSObject {
     
     var text:NSString = ""
     
-    var mutableTextFontAttributes = [NSAttributedStringKey : AnyObject]()
+    var mutableTextFontAttributes = [NSAttributedString.Key : AnyObject]()
     
     @objc public init(text:NSString, size:CGFloat) {
         self.text = text
         
-        self.mutableTextFontAttributes = [NSAttributedStringKey : AnyObject]()
-        self.mutableTextFontAttributes[NSAttributedStringKey.paragraphStyle] = NSMutableParagraphStyle.default.mutableCopy() as! NSMutableParagraphStyle
+        self.mutableTextFontAttributes = [NSAttributedString.Key : AnyObject]()
+        self.mutableTextFontAttributes[NSAttributedString.Key.paragraphStyle] = NSMutableParagraphStyle.default.mutableCopy() as! NSMutableParagraphStyle
         
-        self.mutableTextFontAttributes[NSAttributedStringKey.font] = EntypoFont.fontOfSize(size)
+        self.mutableTextFontAttributes[NSAttributedString.Key.font] = EntypoFont.fontOfSize(size)
     }
     
     // MARK: - Method
-    @objc public func addAttribute(attributeName:NSAttributedStringKey, value:AnyObject) {
+    @objc public func addAttribute(attributeName:NSAttributedString.Key, value:AnyObject) {
         self.mutableTextFontAttributes[attributeName] = value
     }
     
