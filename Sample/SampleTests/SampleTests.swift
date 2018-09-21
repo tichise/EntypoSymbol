@@ -33,7 +33,11 @@ class SampleTests: XCTestCase {
         let titleLabel:UILabel = UILabel.init()
         titleLabel.font = EntypoFont.fontOfSize(40)
         titleLabel.text = EntypoIcon.creativeCommons
-        
-        XCTAssertTrue(titleLabel.text?.characters.count == 1)
+
+        guard let text = titleLabel.text else {
+            fatalError()
+        }
+
+        XCTAssertTrue(text.count == 1)
     }
 }
