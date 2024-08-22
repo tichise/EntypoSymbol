@@ -4,9 +4,6 @@
 - Entypoアイコンをシンボルフォントで呼び出せるライブラリです。ObjecitveC版は[こちら](https://github.com/tichise/EntypoSymbolObjC).
  - 詳細な使い方は[qiita](http://qiita.com/tichise/items/0b26a7a47c3862c4ca50)に記載してます。
 
-#### Image
-<img src="https://s3.amazonaws.com/cocoacontrols_production/uploads/control_image/image/6387/_____.png" width="160px">
-
 #### Licence
 font used in this project
 
