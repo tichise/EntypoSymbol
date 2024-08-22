@@ -10,14 +10,14 @@ import UIKit
 /**
  マテリアルデザインアイコンをUIFont形式で呼ぶに使うクラス
  */
-open class EntypoFont:NSObject {
+open class EntypoFont {
     
     /**
      アイコンをフォント形式で呼び出すのに使うメソッド
      - parameter fontSize: フォントサイズ
      - returns: UIFont
      */
-    @objc open class func fontOfSize(_ fontSize: CGFloat) -> UIFont {
+    open class func fontOfSize(_ fontSize: CGFloat) -> UIFont {
         
         struct Static {
             
@@ -29,7 +29,7 @@ open class EntypoFont:NSObject {
         let name = "entypo"
         
         // アイコンを呼び出す
-        if (UIFont.fontNames(forFamilyName: name).count == 0) {
+        if UIFont.fontNames(forFamilyName: name).count == 0 {
             FontLoader.loadFont(name)
         }
         

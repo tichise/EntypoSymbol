@@ -7,13 +7,13 @@
 
 import UIKit
 
-open class EntypoSymbol:NSObject {
+open class EntypoSymbol {
     
     var text:NSString = ""
     
     var mutableTextFontAttributes = [NSAttributedString.Key : AnyObject]()
     
-    @objc public init(text:NSString, size:CGFloat) {
+    public init(text:NSString, size:CGFloat) {
         self.text = text
         
         self.mutableTextFontAttributes = [NSAttributedString.Key : AnyObject]()
@@ -23,7 +23,7 @@ open class EntypoSymbol:NSObject {
     }
     
     // MARK: - Method
-    @objc public func addAttribute(attributeName:NSAttributedString.Key, value:AnyObject) {
+    public func addAttribute(attributeName:NSAttributedString.Key, value:AnyObject) {
         self.mutableTextFontAttributes[attributeName] = value
     }
     
@@ -32,7 +32,7 @@ open class EntypoSymbol:NSObject {
      - parameter size: サイズ
      - returns: UIImage
      */
-    @objc public func image(size:CGSize)->UIImage {
+    public func image(size:CGSize)->UIImage {
         UIGraphicsBeginImageContextWithOptions(size, false, 0)
         
         let textRect  = CGRect(x: 0, y: 0, width: size.width, height: size.height)
