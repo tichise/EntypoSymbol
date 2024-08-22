@@ -22,9 +22,9 @@ Creative Commons Attribution 4.0 International (CC BY 4.0)
 ```html
 import EntypoSymbol
 
-var symbol:EntypoSymbol = EntypoSymbol(text:EntypoIcon.install, size:25)
-symbol.addAttribute(NSForegroundColorAttributeName, value: UIColor.redColor())
-var iconImage:UIImage = symbol.imageWithSize(CGSizeMake(25, 25))
+let symbol = EntypoSymbol(text: EntypoIcon.install, size:25)
+symbol.addAttribute(attributeName: NSAttributedString.Key.foregroundColor, value: UIColor.red)
+let iconImage = symbol.image(size: CGSizeMake(25, 25))
 ```
 
 ```html
@@ -33,26 +33,3 @@ import EntypoSymbol
 sampleLabel.font = EntypoFont.fontOfSize(40)
 sampleLabel.text = EntypoIcon.creativeCommons
 ```
-
-
-#### Examples Objective C
-
-##### Image
-
-```html
-@import EntypoSymbol;
-
-EntypoSymbol *symbol = [[EntypoSymbol alloc] initWithText:[EntypoIcon install] size:30];
-[symbol addAttributeWithAttributeName:NSForegroundColorAttributeName value:[UIColor blackColor]];
-sampleImageView.image = [symbol imageWithSize:CGSizeMake(30, 30)];
-```
-
-```html
-@import EntypoSymbol;
-
-sampleLabel.font = [EntypoFont fontOfSize:20];
-sampleLabel.text = [EntypoIcon install];
-```
-
-#### Installation (CocoaPods)
-` pod EntypoSymbol `
