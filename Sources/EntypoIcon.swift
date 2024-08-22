@@ -5,10 +5,14 @@
 //  Copyright (c) 2015 tichise. All rights reserved.
 //
 
+#if !os(macOS)
 import UIKit
 
-open class EntypoIcon {
-    
+/**
+ * マテリアルデザインアイコンのコードを返す構造体
+ */
+@available(iOS, deprecated: 13.0)
+public struct EntypoIcon {
     public static let baidu = "\u{e749}"
     public static let houzz = "\u{e74a}"
     public static let windowsStore = "\u{e74b}"
@@ -421,3 +425,5 @@ open class EntypoIcon {
     public static let vCard = "\u{e747}"
     public static let addUser = "\u{e748}"
 }
+
+#endif
