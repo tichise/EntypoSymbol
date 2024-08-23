@@ -8,10 +8,6 @@
 #if !os(macOS)
 import UIKit
 
-/**
- * マテリアルデザインアイコンのコードを返す構造体
- */
-@available(iOS, deprecated: 13.0)
 public struct EntypoIcon {
     public static let baidu = "\u{e749}"
     public static let houzz = "\u{e74a}"
